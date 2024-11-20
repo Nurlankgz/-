@@ -1,0 +1,113 @@
+.maincontent {
+  display: flex;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 300px;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.panel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.panel__options {
+  display: flex;
+  gap: 5px;
+}
+
+.panel__options-btn {
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+	
+}
+
+.menu__item {
+  display: flex;
+  align-items: center;
+}
+
+.menu__link {
+  display: flex;
+}
+.menu__options {
+	margin-left: 50px;
+}
+
+.sidebar__exit {
+  margin-top: auto;
+}
+
+.header {
+	display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.header__search {
+	flex-grow: 1;
+}
+
+.header__user {
+	display: flex;
+  align-items: center;
+ 
+}
+
+.icons {
+display: flex;
+justify-content: space-around;
+}
+
+.icons__pic {
+
+}
+
+.visitors__container {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.visitors {
+ flex-grow: 1 ;
+}
+
+.visitors:first-child {
+}
+
+.visitors__daily {
+  display: flex;
+  justify-content: space-between;
+}
+
+.visitors__daily-item {
+}
+
+.posts {
+  display: flex ;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+    
+  
+}
+
+.posts__item {
+
+}
+
+.posts__desc {
+  
+}
